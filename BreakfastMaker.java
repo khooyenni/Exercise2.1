@@ -1,6 +1,6 @@
 package Example1;
 
-public class KitchenAppliances1 {
+public class BreakfastMaker {
 	
 	String brand = "Sunpentown";
 	String voltage = "120V";
