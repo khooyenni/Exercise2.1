@@ -5,7 +5,7 @@ public class Main {
 
 public static void main(String[] args) {
 		
-		KitchenAppliances1 Sunpentown = new KitchenAppliances1();
+		BreakfastMaker Sunpentown = new BreakfastMaker();
 		System.out.println("The Brand of Breakfastmaker: " + Sunpentown.brand);
 		System.out.println("The Voltage of Breakfastmaker: " + Sunpentown.voltage);
 		System.out.println("The Oven Capacity of Breakfastmaker: " + Sunpentown.ovenCapacity);
@@ -15,13 +15,13 @@ public static void main(String[] args) {
 		
 		System.out.println();
 		
-		KitchenAppliances2 Sharp = new KitchenAppliances2();
-		System.out.println("The Brand of Microwave Oven: " + Sharp.brand);
-		System.out.println("The Model of Microwave Oven: " + Sharp.model);
-		System.out.println("The Oven Capacity of Microwave Oven: " + Sharp.ovenCapacity);
-		Sharp.bake();
-		Sharp.grill();
-		Sharp.defrost();
+		Tablet Huawei = new Tablet();
+		System.out.println("The Brand of Tablet: " + Huawei.brand);
+		System.out.println("The Model of Tablet: " + Huawei.model);
+		System.out.println("The Oven Capacity of Tablet: " + Huawei.colour);
+		Huawei.call();
+		Huawei.youtube();
+		Huawei.notification();
 		
 
 	}
